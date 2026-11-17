@@ -9,6 +9,7 @@
 - [決定事項と検討事項](docs/decisions.md)：項目別の最新の結論、未決定事項と変更履歴
 - [用語集](docs/glossary.md)：周、担当者、リアクションなどの意味
 - [初期版・運用の提案](docs/release-plan.md)：試作、初期版とアップデート、プライバシーと運用の案
+- [試作までの進め方](docs/work-plan.md)：判断が必要な論点、試作と公開前の進行案
 - [技術構成の提案](docs/technology.md)：Flutter を中心とした構成と費用の参考
 - [法務・公開時の確認](docs/legal-review.md)：国内公開に向けた法令・App Store 審査の確認事項
 
