@@ -7,6 +7,7 @@
 | 領域 | 候補 | 役割と検証事項 |
 | --- | --- | --- |
 | アプリ | Flutter / Dart | iOS から開始し、将来 Android・パソコン向けに展開。文字中心の編集、配置、手書き、ページめくりをまず実機で検証 |
+| Liquid Glass 表現 | [`liquid_glass_widgets`](https://pub.dev/packages/liquid_glass_widgets) / [`liquid_glass_easy`](https://pub.dev/packages/liquid_glass_easy) | iOS 風 Liquid Glass はこの２パッケージ群を基盤に組む。`liquid_glass_widgets` はボタン・AppBar・Scaffold など完成ウィジェット、`liquid_glass_easy` は `LiquidGlassLens` などレンズ素材を提供。自前で backdrop blur を書かず、まずパッケージの標準部品で統一する |
 | データ・認証 | Supabase の PostgreSQL / Auth | ユーザー、日記帳、参加者、順番、ページ、下書き、コメントなどを管理。メール・Apple サインインの連携を検証 |
 | 写真 | Supabase Storage の非公開領域 | 写真を保存。必ずアクセス制御を実装し、退出・削除時に写真と一時 URL の扱いを確認 |
 | アプリ側の重要処理 | PostgreSQL のトランザクションやサーバー側の処理 | 番の移動、10人の参加上限、削除同意、削除などを競合時も矛盾しないよう管理 |
